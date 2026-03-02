@@ -135,6 +135,14 @@ ul {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
 }
 
+.navbar.menu-open {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background: transparent;
+  border-bottom: none;
+  box-shadow: none;
+}
+
 .nav-container {
   max-width: 1180px;
   margin: 0 auto;
@@ -1311,7 +1319,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(6, 14, 28, 0.98);
+    background: #060E1C;
     justify-content: center;
     align-items: center;
     gap: 40px;

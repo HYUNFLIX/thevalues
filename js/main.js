@@ -20,6 +20,7 @@ const navLinks = document.getElementById('navLinks');
 if (hamburger && navLinks) {
   hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('open');
+    navbar.classList.toggle('menu-open');
     const spans = hamburger.querySelectorAll('span');
     hamburger.classList.toggle('active');
     if (hamburger.classList.contains('active')) {
@@ -37,6 +38,7 @@ if (hamburger && navLinks) {
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navLinks.classList.remove('open');
+      navbar.classList.remove('menu-open');
       hamburger.classList.remove('active');
       hamburger.querySelectorAll('span').forEach(s => s.style.cssText = '');
     });
