@@ -1326,6 +1326,41 @@ ul {
     font-size: 22px;
   }
 
+  /* --- Mobile Dropdown Overrides --- */
+  .has-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-dropdown {
+    position: static;
+    transform: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    padding: 0;
+    min-width: unset;
+    gap: 16px;
+  }
+
+  .nav-dropdown a {
+    font-size: 16px;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .has-dropdown:hover .nav-dropdown {
+    transform: none;
+  }
+
+  .nav-arrow {
+    display: none;
+  }
+
   .nav-cta {
     display: none;
   }
