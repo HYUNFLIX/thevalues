@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="더밸류즈 가치관경영연구소 - 조직의 가치관을 설계하고 내재화합니다. 컨설팅, 워크숍, 강의를 통해 지속가능한 조직문화를 만들어 드립니다." />
+  <meta name="keywords" content="가치관경영, 조직문화, ESG전략, DEI, 컨설팅, 워크숍, 더밸류즈" />
+  <meta property="og:title" content="더밸류즈 가치관경영연구소" />
+  <meta property="og:description" content="세상 모든 조직이 자기 고유의 가치관을 가지게 하는 것, 더밸류즈의 비전입니다." />
+  <meta property="og:type" content="website" />
+  <title>더밸류즈 가치관경영연구소 | The Values</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">THE<br />VALUES</span>
+        <span class="logo-text">더밸류즈<br /><small>가치관경영연구소</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <div class="nav-item has-dropdown">
+          <a href="about.html" class="nav-parent">더밸류즈 <span class="nav-arrow">▾</span></a>
+          <div class="nav-dropdown">
+            <a href="about.html">더밸류즈 가치관</a>
+            <a href="team.html">소장 &amp; 파트너</a>
+            <a href="books.html">출간도서</a>
+            <a href="reference.html">레퍼런스</a>
+          </div>
+        </div>
+        <div class="nav-item has-dropdown">
+          <a href="#services" class="nav-parent">프로그램 <span class="nav-arrow">▾</span></a>
+          <div class="nav-dropdown">
+            <a href="#services">컨설팅</a>
+            <a href="#services">워크숍</a>
+            <a href="#services">특강 / 강의</a>
+          </div>
+        </div>
+        <a href="#insights" class="nav-item">칼럼/영상</a>
+        <a href="contact.html" class="nav-item">문의하기</a>
+      </nav>
+      <a href="contact.html" class="nav-cta">상담 신청</a>
+      <button class="hamburger" id="hamburger" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">가치관경영 전문 연구소</div>
+      <h1 class="hero-title reveal-up">
+        모든 조직이<br />
+        <span class="typed-text" id="typedText"></span>
+        <span class="cursor">|</span>
+      </h1>
+      <p class="hero-sub reveal-up">
+        Mission · Vision &amp; Goals · Core Values<br />
+        Code of Conduct · Culture
+      </p>
+      <div class="hero-ctas reveal-up">
+        <button class="btn-primary"
+          onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">프로그램 살펴보기</button>
+        <button class="btn-ghost" onclick="document.getElementById('insights').scrollIntoView({behavior:'smooth'})">칼럼
+          읽기</button>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-indicator" aria-label="아래로 스크롤">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>스크롤</span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT / VISION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">더밸류즈 소개</div>
+      <h2 class="section-title reveal-up">
+        우리의 비전은<br />
+        <em>세상 모든 조직</em>이<br />
+        자기 고유의 가치관을 갖는 것
+      </h2>
+      <p class="section-desc reveal-up">
+        더밸류즈 가치관경영연구소는 기업과 조직이 자신만의 핵심가치를 발견하고,<br />
+        이를 문화로 내재화할 수 있도록 돕는 전문 컨설팅 기관입니다.
+      </p>
+
+      <div class="values-grid">
+        <div class="value-card reveal-up" data-delay="0">
+          <div class="value-icon">🎯</div>
+          <h3>Mission</h3>
+          <p>조직이 스스로의 존재 이유를 명확히 하고, 그것을 구성원과 함께 실현할 수 있도록 지원합니다.</p>
+        </div>
+        <div class="value-card reveal-up" data-delay="100">
+          <div class="value-icon">🔭</div>
+          <h3>Vision &amp; Goals</h3>
+          <p>3~5년 후의 이상적인 모습을 그리고, 이를 달성하기 위한 구체적인 목표 체계를 수립합니다.</p>
+        </div>
+        <div class="value-card reveal-up" data-delay="200">
+          <div class="value-icon">💎</div>
+          <h3>Core Values</h3>
+          <p>조직의 의사결정과 행동 기준이 되는 핵심가치를 구성원과 함께 발굴하고 정의합니다.</p>
+        </div>
+        <div class="value-card reveal-up" data-delay="300">
+          <div class="value-icon">📋</div>
+          <h3>Code of Conduct</h3>
+          <p>가치관에 기반한 실천 행동 기준을 마련하여 일상 업무에서 가치관이 살아 숨 쉬게 합니다.</p>
+        </div>
+        <div class="value-card reveal-up" data-delay="400">
+          <div class="value-icon">🌱</div>
+          <h3>Culture</h3>
+          <p>선포된 가치관이 조직 전체에 내재화될 수 있도록 지속적인 문화 변화를 이끕니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIRECTOR HIGHLIGHT ===== -->
+  <section class="director-section" style="padding: 0 0 120px; background: var(--white);">
+    <div class="container">
+      <div class="team-card director-highlight reveal-up">
+        <img src="http://thevalues.kr/data/board/sub1_2/4piFMjAyNeygleynhO2YuOyGjOyepTI~.thumb2.jpg" alt="정진호 소장"
+          class="team-photo" />
+        <div class="team-info">
+          <div class="team-role">소장 / 대표</div>
+          <h2 class="team-name" style="color: var(--white); margin-bottom: 24px;">정진호</h2>
+          <p class="team-bio">
+            대한민국 가치관경영 1세대 전문가로서 조직문화 트렌드, DEI, ESG 분야의 저자이자 컨설턴트입니다. 『조직문화 트렌드 2026』 등 다수의 저서를 통해 실천 가능한 가치관경영의 방향을
+            제시하고 있습니다.
+          </p>
+          <div style="margin-top: 32px; display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="https://blog.naver.com/jjhland" target="_blank" class="btn-ghost"
+              style="padding: 8px 20px; font-size: 13px; border-color: rgba(0, 201, 167, 0.4); color: var(--teal);">Blog</a>
+            <a href="https://www.youtube.com/@JungJinHo_TheValues" target="_blank" class="btn-ghost"
+              style="padding: 8px 20px; font-size: 13px; border-color: rgba(0, 201, 167, 0.4); color: var(--teal);">YouTube</a>
+            <a href="#" target="_blank" class="btn-ghost"
+              style="padding: 8px 20px; font-size: 13px; border-color: rgba(0, 201, 167, 0.4); color: var(--teal);">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label reveal-up">프로그램</div>
+      <h2 class="section-title reveal-up">조직문화 혁신을 위한<br /><em>맞춤형 솔루션</em></h2>
+      <p class="section-desc reveal-up">더밸류즈는 조직의 규모와 상황에 맞는 다양한 프로그램을 제공합니다.</p>
+
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-num">01</div>
+          <div class="service-icon">🏢</div>
+          <h3>컨설팅</h3>
+          <p>조직문화 진단에서부터 가치관 수립, ESG 전략까지 전사적으로 체계적인 변화를 이끕니다.</p>
+          <ul class="service-tags">
+            <li>가치관 수립 프로젝트</li>
+            <li>DEI 조직문화 혁신</li>
+            <li>ESG 전략 수립</li>
+          </ul>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal-up" data-delay="150">
+          <div class="service-num">02</div>
+          <div class="service-icon">👥</div>
+          <h3>워크숍</h3>
+          <p>팀 단위 집중 세션을 통해 구성원이 직접 가치관을 발굴하고 내재화하는 과정을 경험합니다.</p>
+          <ul class="service-tags">
+            <li>팀 가치관 워크숍</li>
+            <li>리더십 가치관 세션</li>
+            <li>조직문화 진단 워크숍</li>
+          </ul>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-num">03</div>
+          <div class="service-icon">🎤</div>
+          <h3>특강 / 강의</h3>
+          <p>가치관경영, 조직문화, ESG 트렌드에 관한 전문적이고 실질적인 강의를 제공합니다.</p>
+          <ul class="service-tags">
+            <li>가치관경영 트렌드</li>
+            <li>조직문화 혁신 강의</li>
+            <li>ESG 경영 특강</li>
+          </ul>
+          <div class="service-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US (STATS) ===== -->
+  <section class="stats" id="stats">
+    <div class="stats-bg"></div>
+    <div class="container">
+      <div class="section-label reveal-up" style="color:#00C9A7">더밸류즈를 선택하는 이유</div>
+      <h2 class="section-title reveal-up" style="color:#fff">
+        숫자로 증명하는<br /><em>신뢰의 경험</em>
+      </h2>
+
+      <div class="stats-grid">
+        <div class="stat-item reveal-up" data-delay="0">
+          <div class="stat-num" data-target="15">0</div>
+          <div class="stat-unit">년</div>
+          <div class="stat-label">가치관경영 전문 경력</div>
+        </div>
+        <div class="stat-item reveal-up" data-delay="100">
+          <div class="stat-num" data-target="200">0</div>
+          <div class="stat-unit">+</div>
+          <div class="stat-label">프로젝트 수행 기업 수</div>
+        </div>
+        <div class="stat-item reveal-up" data-delay="200">
+          <div class="stat-num" data-target="10">0</div>
+          <div class="stat-unit">권</div>
+          <div class="stat-label">조직문화 관련 출간 도서</div>
+        </div>
+        <div class="stat-item reveal-up" data-delay="300">
+          <div class="stat-num" data-target="98">0</div>
+          <div class="stat-unit">%</div>
+          <div class="stat-label">교육 만족도</div>
+        </div>
+      </div>
+
+      <div class="director-card reveal-up">
+        <div class="director-info">
+          <div class="director-avatar">정<br />진<br />호</div>
+          <div>
+            <div class="director-role">소장 / 대표</div>
+            <div class="director-name">정진호</div>
+            <p class="director-bio">
+              대한민국 가치관경영 1세대 전문가로서 조직문화 트렌드, DEI, ESG 분야의 저자이자 컨설턴트입니다.
+              <em>『조직문화 트렌드 2026』</em> 등 다수의 저서를 통해 실천 가능한 가치관경영의 방향을 제시하고 있습니다.
+            </p>
+            <div class="director-links">
+              <a href="https://blog.naver.com/jjhland" target="_blank" class="director-link">Blog</a>
+              <a href="https://youtube.com" target="_blank" class="director-link">YouTube</a>
+              <a href="https://facebook.com/jjhland" target="_blank" class="director-link">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSIGHTS ===== -->
+  <section class="insights" id="insights">
+    <div class="container">
+      <div class="section-label reveal-up">칼럼 &amp; 인사이트</div>
+      <h2 class="section-title reveal-up">가치관경영의<br /><em>최신 트렌드</em></h2>
+      <p class="section-desc reveal-up">더밸류즈 소장이 직접 집필하는 조직문화 인사이트를 만나보세요.</p>
+
+      <div class="insights-grid">
+        <article class="insight-card featured reveal-up" data-delay="0">
+          <div class="insight-tag">조직문화 트렌드</div>
+          <h3>AI 시대, 조직문화는 어떻게 달라져야 하는가</h3>
+          <p>생성형 AI의 등장으로 업무 방식이 근본적으로 변화하고 있습니다. 이 변화 속에서 조직문화가 나아가야 할 방향을 살펴봅니다.</p>
+          <div class="insight-meta">
+            <span>월간 인재경영</span>
+            <span>2026.01</span>
+          </div>
+          <a href="https://thevalues.kr" target="_blank" class="insight-read">읽기 →</a>
+        </article>
+
+        <article class="insight-card reveal-up" data-delay="100">
+          <div class="insight-tag">ESG</div>
+          <h3>2026 ESG 경영 트렌드와 기업 가치관의 연결</h3>
+          <p>ESG가 선택이 아닌 필수가 된 시대, 기업의 가치관과 ESG 전략을 어떻게 연계할 수 있을지 살펴봅니다.</p>
+          <div class="insight-meta">
+            <span>월간 인사관리</span>
+            <span>2026.01</span>
+          </div>
+          <a href="https://thevalues.kr" target="_blank" class="insight-read">읽기 →</a>
+        </article>
+
+        <article class="insight-card reveal-up" data-delay="200">
+          <div class="insight-tag">DEI</div>
+          <h3>LVMH 사례로 보는 DEI 조직문화 성공 전략</h3>
+          <p>글로벌 럭셔리 기업 LVMH의 다양성·형평성·포용성(DEI) 경영 사례를 통해 한국 기업에 주는 시사점을 분석합니다.</p>
+          <div class="insight-meta">
+            <span>월간 인재경영</span>
+            <span>2025.12</span>
+          </div>
+          <a href="https://thevalues.kr" target="_blank" class="insight-read">읽기 →</a>
+        </article>
+      </div>
+
+      <div class="insights-more reveal-up">
+        <a href="https://thevalues.kr" target="_blank" class="btn-outline">모든 칼럼 보기 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT CTA ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-bg"></div>
+    <div class="container">
+      <div class="contact-inner reveal-up">
+        <div class="section-label">문의하기</div>
+        <h2 class="section-title" style="color:#fff">
+          지금 바로<br /><em>가치관경영을 시작하세요</em>
+        </h2>
+        <p class="section-desc" style="color:rgba(255,255,255,0.7)">
+          귀사의 상황과 니즈에 맞는 최적의 프로그램을 제안해 드립니다.
+        </p>
+
+        <div class="contact-options">
+          <a href="tel:070-4102-3886" class="contact-option">
+            <div class="co-icon">📞</div>
+            <div class="co-label">전화 상담</div>
+            <div class="co-value">070-4102-3886</div>
+          </a>
+          <a href="mailto:jjhland@naver.com" class="contact-option">
+            <div class="co-icon">✉️</div>
+            <div class="co-label">이메일 문의</div>
+            <div class="co-value">jjhland@naver.com</div>
+          </a>
+          <a href="https://blog.naver.com/jjhland" target="_blank" class="contact-option">
+            <div class="co-icon">📝</div>
+            <div class="co-label">블로그</div>
+            <div class="co-value">blog.naver.com/jjhland</div>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="orgName" placeholder="기업/기관명" required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="name" placeholder="담당자 성함" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="tel" id="phone" placeholder="연락처" required />
+            </div>
+            <div class="form-group">
+              <select id="program">
+                <option value="">관심 프로그램 선택</option>
+                <option value="consulting">컨설팅</option>
+                <option value="workshop">워크숍</option>
+                <option value="lecture">특강/강의</option>
+                <option value="other">기타</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full">
+            <textarea id="message" placeholder="문의 내용을 입력해주세요..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit">문의 보내기 →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">THE VALUES</div>
+          <p class="footer-tagline">세상 모든 조직이<br />자기 고유의 가치관을 가지게 하는 것</p>
+          <div class="footer-social">
+            <a href="https://blog.naver.com/jjhland" target="_blank" aria-label="블로그">Blog</a>
+            <a href="https://youtube.com" target="_blank" aria-label="유튜브">YouTube</a>
+            <a href="https://facebook.com/jjhland" target="_blank" aria-label="페이스북">Facebook</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>더밸류즈</h4>
+          <ul>
+            <li><a href="#">소개</a></li>
+            <li><a href="#">대표 소개</a></li>
+            <li><a href="#">출간 도서</a></li>
+            <li><a href="#">언론 보도</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>프로그램</h4>
+          <ul>
+            <li><a href="#">컨설팅</a></li>
+            <li><a href="#">워크숍</a></li>
+            <li><a href="#">특강/강의</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>연락처</h4>
+          <ul class="footer-contact-list">
+            <li>📍 (16876) 경기 용인시 수지구 죽전로 267 801-1302</li>
+            <li>📞 <a href="tel:070-4102-3886">070-4102-3886</a></li>
+            <li>✉️ <a href="mailto:jjhland@naver.com">jjhland@naver.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>사업자등록번호: 142-09-83496 | 대표: 정진호 | 회사명: 더밸류즈 가치관경영연구소</p>
+        <p class="footer-links">
+          <a href="#">이용약관</a> · <a href="#">개인정보처리방침</a> · <a href="#">이메일주소무단수집거부</a>
+        </p>
+        <p class="footer-copy">© 2026 더밸류즈 가치관경영연구소. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+
+</html>
